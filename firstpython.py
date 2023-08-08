@@ -6,6 +6,7 @@ def triangle(base, height):
  
 def circle(radius):
      return math.pi*(radius**2)
+    
      
 def dounut (outside_radius, inside_radius):
      return circle(outside_radius) - circle(inside_radius)
@@ -18,6 +19,6 @@ print("Area of the triangle:", triangle(base, height))
 radius = 7
 print("Area of the circle:", circle(radius))
 
-outside_radius = 10
-inside_radius = 5
+outside_radius = 20
+inside_radius = 8
 print("Area of the donut:", dounut(outside_radius, inside_radius))
