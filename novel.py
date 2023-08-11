@@ -8,3 +8,5 @@ with open("novel.txt") as file:
 import os
 os.path.exists("last_version.txt")
 os.path.getsize("last_version.txt")
+
+
