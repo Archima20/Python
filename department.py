@@ -1,0 +1,10 @@
+import csv
+users = [ {"name": "sol", "username": "arch", "dep":"IT"},
+         {"name": "archush", "username": "sashf", "dep":"IT"},
+         {"name": "chiahsh", "username": "faje", "dep":"civil"},
+         {"name": "sdadsw", "username": "fbgv", "dep":"xzfdbg"}]
+keys = ["name", "username" , "dep"]
+with open('by_dep.csv', 'w')as by_dep:
+    writer = csv.DictWriter(by_dep, fieldnames=keys)
+    writer.writeheader()
+    writer.writerows(users)

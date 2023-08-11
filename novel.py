@@ -4,3 +4,9 @@ with open("novel.txt", "a") as file:
 with open("novel.txt") as file:
     file.read()
     print(file.readline())
+    
+import os
+os.path.exists("last_version.txt")
+os.path.getsize("last_version.txt")
+
+
