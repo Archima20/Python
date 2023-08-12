@@ -1,5 +1,6 @@
-import csv
 import os
+import csv
+
 # Create a file with data in it
 def create_file(filename):
   with open(filename, "w") as file:
@@ -10,7 +11,6 @@ def create_file(filename):
     file.write("poinsettia,red,perennial\n")
     file.write("sunflower,yellow,annual\n")
 
-
 # Read the file contents and format the information about each row
 def contents_of_file(filename):
   return_string = ""
@@ -19,14 +19,17 @@ def contents_of_file(filename):
   create_file(filename)
 
   # Open the file
-  with open(filename) as file:
-    # Read the rows of the file into a dictionary
-    reader = csv.DictReader(file) 
-    # Process each item of the dictionary
-    for row in reader:
-      return_string += "a {} {} is {}\n".format(row["color"], row["name"], row["type"])
+  with open(filename, "r") as file:
+    # Skip over the header record
+    header = next(file)
+    # Read the rows of the file
+    rows = file.readlines()
+    # Process each row
+    for row in rows:
+      data = row.strip().split(',')
+      # Format the return string for data rows only
+      return_string += "a {} {} is {}\n".format(data[1], data[0], data[2])
   return return_string
 
-
-#Call the function
+# Call the function
 print(contents_of_file("flowers.csv"))
