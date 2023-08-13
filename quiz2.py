@@ -31,5 +31,5 @@ def contents_of_file(filename):
       return_string += "a {} {} is {}\n".format(data[1], data[0], data[2])
   return return_string
 
-# Call the function
+# Call the function > print
 print(contents_of_file("flowers.csv"))
