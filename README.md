@@ -1,6 +1,6 @@
 # Python
 
-PRACTICES 
-Google course 
+
+Google course Python for Automation.
 It`s a markdown file in this repository. 
-I need more explanations on this issue. 
+Could you give me more explanations on this issue? 
