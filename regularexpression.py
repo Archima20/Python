@@ -30,8 +30,10 @@ print(re.search(r"p.ng", "pangea", re.IGNORECASE))
 print(re.search(r"[pP]ython", "python"))
 # <re.Match object; span=(0, 6), match='python'>
 
+
 print(re.search(r"[a-z]way", "The end of the highway"))
 # <re.Match object; span=(18, 22), match='hway'>
+
 
 print(re.search(r"[a-z]way", "what a way to go"))
 # None
