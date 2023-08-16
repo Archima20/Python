@@ -36,4 +36,8 @@ print(re.search(r"[a-z]way", "The end of the highway"))
 print(re.search(r"[a-z]way", "what a way to go"))
 # None
 
+print(re.search(r"[aA-Zz]", "what is the correct way? I really wanna know! tell me plase."))
+# <re.Match object; span=(2, 3), match='a'>
+
 #Now Iam preparing myself for an interview. I will continue the course after preparetion.
+# wish me a good luck with it !!
