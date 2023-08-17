@@ -88,8 +88,6 @@ CREATE TABLE IF NOT EXISTS `pma__pdf_pages` (
 )
   COMMENT='PDF relation pages for phpMyAdmin'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
-
 --
 -- Table structure for table `pma__recent`
 --
@@ -102,8 +100,6 @@ CREATE TABLE IF NOT EXISTS `pma__recent` (
   COMMENT='Recently accessed tables'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
--- --------------------------------------------------------
-
 --
 -- Table structure for table `pma__favorite`
 --
@@ -115,8 +111,6 @@ CREATE TABLE IF NOT EXISTS `pma__favorite` (
 )
   COMMENT='Favorite tables'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `pma__table_uiprefs`
@@ -132,9 +126,6 @@ CREATE TABLE IF NOT EXISTS `pma__table_uiprefs` (
 )
   COMMENT='Tables'' UI preferences'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `pma__relation`
 --
@@ -151,9 +142,6 @@ CREATE TABLE IF NOT EXISTS `pma__relation` (
 )
   COMMENT='Relation table'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `pma__table_coords`
 --
@@ -169,7 +157,6 @@ CREATE TABLE IF NOT EXISTS `pma__table_coords` (
   COMMENT='Table coordinates for phpMyAdmin PDF output'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `pma__table_info`
@@ -205,9 +192,6 @@ CREATE TABLE IF NOT EXISTS `pma__tracking` (
 )
   COMMENT='Database changes tracking for phpMyAdmin'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `pma__userconfig`
 --
@@ -221,8 +205,6 @@ CREATE TABLE IF NOT EXISTS `pma__userconfig` (
   COMMENT='User preferences storage for phpMyAdmin'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
--- --------------------------------------------------------
-
 --
 -- Table structure for table `pma__users`
 --
@@ -234,8 +216,6 @@ CREATE TABLE IF NOT EXISTS `pma__users` (
 )
   COMMENT='Users and their assignments to user groups'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `pma__usergroups`
@@ -249,8 +229,6 @@ CREATE TABLE IF NOT EXISTS `pma__usergroups` (
 )
   COMMENT='User groups with configured menu items'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `pma__navigationhiding`
@@ -267,8 +245,6 @@ CREATE TABLE IF NOT EXISTS `pma__navigationhiding` (
   COMMENT='Hidden items of navigation tree'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
--- --------------------------------------------------------
-
 --
 -- Table structure for table `pma__savedsearches`
 --
@@ -284,8 +260,6 @@ CREATE TABLE IF NOT EXISTS `pma__savedsearches` (
 )
   COMMENT='Saved searches'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `pma__central_columns`
@@ -304,9 +278,6 @@ CREATE TABLE IF NOT EXISTS `pma__central_columns` (
 )
   COMMENT='Central list of columns'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `pma__designer_settings`
 --
@@ -318,8 +289,6 @@ CREATE TABLE IF NOT EXISTS `pma__designer_settings` (
 )
   COMMENT='Settings related to Designer'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `pma__export_templates`
