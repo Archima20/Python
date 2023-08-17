@@ -100,7 +100,6 @@ CREATE TABLE IF NOT EXISTS `pma__recent` (
   COMMENT='Recently accessed tables'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
---
 -- Table structure for table `pma__favorite`
 --
 
@@ -144,7 +143,7 @@ CREATE TABLE IF NOT EXISTS `pma__relation` (
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 --
 -- Table structure for table `pma__table_coords`
---
+
 
 CREATE TABLE IF NOT EXISTS `pma__table_coords` (
   `db_name` varchar(64) NOT NULL default '',
@@ -205,9 +204,7 @@ CREATE TABLE IF NOT EXISTS `pma__userconfig` (
   COMMENT='User preferences storage for phpMyAdmin'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
---
 -- Table structure for table `pma__users`
---
 
 CREATE TABLE IF NOT EXISTS `pma__users` (
   `username` varchar(64) NOT NULL,
@@ -232,7 +229,6 @@ CREATE TABLE IF NOT EXISTS `pma__usergroups` (
 
 --
 -- Table structure for table `pma__navigationhiding`
---
 
 CREATE TABLE IF NOT EXISTS `pma__navigationhiding` (
   `username` varchar(64) NOT NULL,
@@ -245,7 +241,6 @@ CREATE TABLE IF NOT EXISTS `pma__navigationhiding` (
   COMMENT='Hidden items of navigation tree'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
---
 -- Table structure for table `pma__savedsearches`
 --
 
@@ -263,7 +258,6 @@ CREATE TABLE IF NOT EXISTS `pma__savedsearches` (
 
 --
 -- Table structure for table `pma__central_columns`
---
 
 CREATE TABLE IF NOT EXISTS `pma__central_columns` (
   `db_name` varchar(64) NOT NULL,
@@ -280,7 +274,6 @@ CREATE TABLE IF NOT EXISTS `pma__central_columns` (
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 --
 -- Table structure for table `pma__designer_settings`
---
 
 CREATE TABLE IF NOT EXISTS `pma__designer_settings` (
   `username` varchar(64) NOT NULL,
