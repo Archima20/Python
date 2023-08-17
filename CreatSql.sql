@@ -11,27 +11,17 @@
 --
 -- Please don't forget to set up the tablenames in config.inc.php
 --
-
--- --------------------------------------------------------
-
---
 -- Database : `phpmyadmin`
 --
 CREATE DATABASE IF NOT EXISTS `phpmyadmin`
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 USE phpmyadmin;
-
--- --------------------------------------------------------
-
 --
 -- Privileges
 --
 -- (activate this statement if necessary)
 -- GRANT SELECT, INSERT, DELETE, UPDATE, ALTER ON `phpmyadmin`.* TO
 --    'pma'@localhost;
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `pma__bookmark`
 --
@@ -46,9 +36,6 @@ CREATE TABLE IF NOT EXISTS `pma__bookmark` (
 )
   COMMENT='Bookmarks'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `pma__column_info`
 --
@@ -70,8 +57,6 @@ CREATE TABLE IF NOT EXISTS `pma__column_info` (
   COMMENT='Column information for phpMyAdmin'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
--- --------------------------------------------------------
-
 --
 -- Table structure for table `pma__history`
 --
@@ -89,7 +74,6 @@ CREATE TABLE IF NOT EXISTS `pma__history` (
   COMMENT='SQL history for phpMyAdmin'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `pma__pdf_pages`
@@ -105,7 +89,6 @@ CREATE TABLE IF NOT EXISTS `pma__pdf_pages` (
   COMMENT='PDF relation pages for phpMyAdmin'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `pma__recent`
