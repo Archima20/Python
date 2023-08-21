@@ -50,3 +50,21 @@ print(re.search(r"cat|dog", "Happy are our cats not dog."))
 
 print(re.findall(r"cat|dog", "Happy are our cats not dog."))
 # ['cat', 'dog']
+
+print(re.search(r"Py.*n", "Python pygmalion"))
+# <re.Match object; span=(0, 16), match='Python pygmalion'> ?
+
+print(re.search(r"Py.*n", "Python programming language"))
+# <re.Match object; span=(0, 22), match='Python programming lan'> ??
+
+print(re.search(r"Py[a-z]*n", "Python programming language"))
+# <re.Match object; span=(0, 6), match='Python'>
+
+print(re.search(r"Py[a-z]*n", "Pyn"))
+#<re.Match object; span=(0, 3), match='Pyn'>
+
+print(re.search(r"Py[a-z]*n", "Pythrg"))
+# None
+
+print(re.search(r"o+l+", "woolly"))
+# <re.Match object; span=(1, 5), match='ooll'>
