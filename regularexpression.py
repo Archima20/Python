@@ -42,5 +42,11 @@ print(re.search(r"[aA-Zz]", "what is the correct way? I really wanna know! tell 
 print(re.search(r"[aA-Zz]way", "what a way to go"))
 None
 
-#Now Iam preparing myself for an interview. I will continue the course after preparetion.
-# wish me a good luck with it !!
+print(re.search(r"cat|dog", "Happy is a dog."))
+# <re.Match object; span=(11, 14), match='dog'>
+
+print(re.search(r"cat|dog", "Happy are our cats not dog."))
+# <re.Match object; span=(13, 16), match='cat'>
+
+print(re.findall(r"cat|dog", "Happy are our cats not dog."))
+# ['cat', 'dog']
