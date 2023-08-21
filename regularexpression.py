@@ -68,3 +68,17 @@ print(re.search(r"Py[a-z]*n", "Pythrg"))
 
 print(re.search(r"o+l+", "woolly"))
 # <re.Match object; span=(1, 5), match='ooll'>
+
+print(re.search(r"o+l+", "boil"))
+# None
+
+print(re.search(r"p?each", "I love peaches"))
+# <re.Match object; span=(7, 12), match='peach'>
+
+print(re.search(r"p?each", "I love eaches"))
+# <re.Match object; span=(7, 11), match='each'>
+
+import re
+def repeating_letter_a(text):
+  result = re.search(r"___", text)
+  return result != None
