@@ -95,3 +95,9 @@ print(re.search(r"ne.*t", "net next time success"))
 
 print(re.findall(r"[aA]l.*n", "Allign all possible allignment in alligning line"))
 # ['Allign all possible allignment in alligning lin']
+
+print(re.search(r".com", "welcome TO the welcoming center"))
+#<re.Match object; span=(2, 6), match='lcom'>
+
+print(re.findall(r".com", "welcome TO the welcoming center"))
+# ['lcom', 'lcom']
