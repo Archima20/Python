@@ -68,3 +68,36 @@ print(re.search(r"Py[a-z]*n", "Pythrg"))
 
 print(re.search(r"o+l+", "woolly"))
 # <re.Match object; span=(1, 5), match='ooll'>
+
+print(re.search(r"o+l+", "boil"))
+# None
+
+print(re.search(r"p?each", "I love peaches"))
+# <re.Match object; span=(7, 12), match='peach'>
+
+print(re.search(r"p?each", "I love eaches"))
+# <re.Match object; span=(7, 11), match='each'>
+
+import re
+def repeating_letter_a(text):
+  result = re.search(r"___", text)
+  return result != None
+# I could not answer this exercise! 
+
+print(re.search(r".com", "welcome"))
+# <re.Match object; span=(2, 6), match='lcom'>
+
+print(re.search(r"\.com", "welcome"))
+#None
+
+print(re.search(r"ne.*t", "net next time success"))
+# <re.Match object; span=(0, 10), match='net next t'>
+
+print(re.findall(r"[aA]l.*n", "Allign all possible allignment in alligning line"))
+# ['Allign all possible allignment in alligning lin']
+
+print(re.search(r".com", "welcome TO the welcoming center"))
+#<re.Match object; span=(2, 6), match='lcom'>
+
+print(re.findall(r".com", "welcome TO the welcoming center"))
+# ['lcom', 'lcom']
