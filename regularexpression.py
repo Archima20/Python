@@ -90,3 +90,5 @@ print(re.search(r".com", "welcome"))
 print(re.search(r"\.com", "welcome"))
 #None
 
+print(re.search(r"ne.*t", "net next time success"))
+# <re.Match object; span=(0, 10), match='net next t'>
