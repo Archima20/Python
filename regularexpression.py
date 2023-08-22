@@ -82,3 +82,10 @@ import re
 def repeating_letter_a(text):
   result = re.search(r"___", text)
   return result != None
+
+print(re.search(r".com", "welcome"))
+# <re.Match object; span=(2, 6), match='lcom'>
+
+print(re.search(r"\.com", "welcome"))
+#None
+
