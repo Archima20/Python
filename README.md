@@ -53,7 +53,7 @@ Python's libraries make it accessible to create machine learning models and impl
 
 Python is a versatile programming language with a wide range of functionalities beyond data science. Here are some other key areas where Python excels:
 
-1- ** Web Development**:
+1- **Web Development**:
 
 *Django*: A high-level web framework that encourages rapid development and clean, pragmatic design.
 
