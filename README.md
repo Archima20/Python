@@ -47,7 +47,7 @@ Python's libraries make it accessible to create machine learning models and impl
 
 **PyTorch**: Another popular framework for building and training neural networks, known for its dynamic computation graph.
 
-**Natural Language Toolkit (NLTK)**: Specifically for working with human language data, including text and speech.
+**Natural Language Toolkit (NLTK)**: for working with human language data, including text and speech.
 
 
 
@@ -81,7 +81,7 @@ Python has extensive libraries for network programming, making it useful for bui
 
 **6- Automation**:
 
-Python is widely used for automating tasks such as data extraction, file management, and repetitive processes.
+Python is widely used for automating tasks like data extraction, file management, and repetitive processes.
 
 **7- Artificial Intelligence and Machine Learning**:
 
