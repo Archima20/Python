@@ -65,7 +65,7 @@ Python is a versatile programming language with a wide range of functionalities 
 
 *Tkinter*: Python's built-in library for creating graphical user interfaces (GUIs).
 
-*PyQt and wxPython*: External libraries for building cross-platform GUI applications.
+*PyQt and wxPython*: External libraries for building *cross-platform GUI applications*.
 
 **3- Scripting**:
 
@@ -101,7 +101,7 @@ Python's easy syntax and readability make it a popular choice for teaching progr
 
 **11- Finance**:
 
-Python is used for algorithmic trading, risk management, and financial analysis due to its libraries like pandas and numpy.
+Python is used for algorithmic trading, risk management, and financial analysis due to its libraries like *pandas* and *numpy*.
 
 **12- Data Analysis and Reporting**:
 
