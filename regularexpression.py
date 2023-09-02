@@ -102,4 +102,5 @@ print(re.search(r".com", "welcome TO the welcoming center"))
 print(re.findall(r".com", "welcome TO the welcoming center"))
 # ['lcom', 'lcom']
 
-#I need to practice more 
+#I need to practice more and more 
+#I have to focus on this course 

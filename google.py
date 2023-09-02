@@ -5,3 +5,5 @@ def numpyArray():
     y = np.array([[3,6,2],[9,12,8]], np.int32)
     return x*y
 print(numpyArray())
+
+# working with numpy library 

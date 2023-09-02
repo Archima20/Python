@@ -7,8 +7,7 @@ def triangle(base, height):
 def circle(radius):
      return math.pi*(radius**2)
     
-     
-def dounut (outside_radius, inside_radius):
+ def dounut (outside_radius, inside_radius):
      return circle(outside_radius) - circle(inside_radius)
 
 # Test the functions
