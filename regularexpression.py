@@ -102,5 +102,8 @@ print(re.search(r".com", "welcome TO the welcoming center"))
 print(re.findall(r".com", "welcome TO the welcoming center"))
 # ['lcom', 'lcom']
 
+print(re.findall(r".com", "welcome TO the welcoming center on booking.com"))
+# ['lcom', 'lcom', '.com']
+
 #I need to practice more and more 
 #I have to focus on this course 
