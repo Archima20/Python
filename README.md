@@ -11,7 +11,7 @@ Data collection is the first step in any data science project. Python offers var
 
 **Beautiful Soup**: Used for web scraping, and extracting data from HTML and XML documents.
 
-**Selenium**: Automates web browser interaction, useful for scraping dynamic web content.
+**Selenium**: Automates web browser interaction, for scraping dynamic web content.
 
 **Pandas**: Can import data from a variety of file formats, such as CSV, Excel, and SQL databases.
 
