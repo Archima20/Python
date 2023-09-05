@@ -107,3 +107,6 @@ print(re.findall(r".com", "welcome TO the welcoming center on booking.com"))
 
 #I need to practice more and more 
 #I have to focus on this course 
+
+print(re.search("/.com", "welcome here."))
+#none 
