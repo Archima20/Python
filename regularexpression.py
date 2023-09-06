@@ -138,3 +138,15 @@ print(check_character_groups("shopping_list: milk, bread, eggs.")) # False
 pattern = r"^[a-zA-Z_][a-zA-Z0-9_]*$"
 print(re.search(pattern, "_this_is_a_valid_variable"))
 #<re.Match object; span=(0, 25), match='_this_is_a_valid_variable'>
+
+
+import re
+def check_sentence(text):
+  result = re.search(r"^[A-Z][a-z\s]*[.!?]$", text)
+  return result != None
+
+print(check_sentence("Is this is a sentence?")) # True
+print(check_sentence("is this is a sentence?")) # False
+print(check_sentence("Hello")) # False
+print(check_sentence("1-2-3-GO!")) # False
+print(check_sentence("A star is born.")) # True
