@@ -124,3 +124,13 @@ print(re.search(r"\S*", "This_is_an_example."))
 
 print(re.search(r"\S*", "This is an example."))
 # <re.Match object; span=(0, 4), match='This'>
+
+import re
+def check_character_groups(text):
+  result = re.search(r"\w+\s+\w+", text)
+  return result != None
+
+print(check_character_groups("One")) # False
+print(check_character_groups("123  Ready Set GO")) # True
+print(check_character_groups("username user_01")) # True
+print(check_character_groups("shopping_list: milk, bread, eggs.")) # False
