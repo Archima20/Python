@@ -134,3 +134,7 @@ print(check_character_groups("One")) # False
 print(check_character_groups("123  Ready Set GO")) # True
 print(check_character_groups("username user_01")) # True
 print(check_character_groups("shopping_list: milk, bread, eggs.")) # False
+
+pattern = r"^[a-zA-Z_][a-zA-Z0-9_]*$"
+print(re.search(pattern, "_this_is_a_valid_variable"))
+#<re.Match object; span=(0, 25), match='_this_is_a_valid_variable'>
