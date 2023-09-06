@@ -111,3 +111,16 @@ print(re.findall(r".com", "welcome TO the welcoming center on booking.com"))
 print(re.search("/.com", "welcome here."))
 #none "escaping chareccter"
 
+print(re.search(r"/w*", "welcome here."))
+# none
+print(re.search(r"\w*", "This is an example."))
+# <re.Match object; span=(0, 4), match='This'>
+
+print(re.search(r"\w*", "This_is_an_example."))
+# <re.Match object; span=(0, 18), match='This_is_an_example'>
+
+print(re.search(r"\S*", "This_is_an_example."))
+#<re.Match object; span=(0, 19), match='This_is_an_example.'>
+
+print(re.search(r"\S*", "This is an example."))
+# <re.Match object; span=(0, 4), match='This'>
