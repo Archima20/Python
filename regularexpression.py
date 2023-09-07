@@ -124,3 +124,60 @@ print(re.search(r"\S*", "This_is_an_example."))
 
 print(re.search(r"\S*", "This is an example."))
 # <re.Match object; span=(0, 4), match='This'>
+
+import re
+def check_character_groups(text):
+  result = re.search(r"\w+\s+\w+", text)
+  return result != None
+
+print(check_character_groups("One")) # False
+print(check_character_groups("123  Ready Set GO")) # True
+print(check_character_groups("username user_01")) # True
+print(check_character_groups("shopping_list: milk, bread, eggs.")) # False
+
+pattern = r"^[a-zA-Z_][a-zA-Z0-9_]*$"
+print(re.search(pattern, "_this_is_a_valid_variable"))
+#<re.Match object; span=(0, 25), match='_this_is_a_valid_variable'>
+
+
+import re
+def check_sentence(text):
+  result = re.search(r"^[A-Z][a-z\s]*[.!?]$", text)
+  return result != None
+
+print(check_sentence("Is this is a sentence?")) # True
+print(check_sentence("is this is a sentence?")) # False
+print(check_sentence("Hello")) # False
+print(check_sentence("1-2-3-GO!")) # False
+print(check_sentence("A star is born.")) # True
+
+import re
+def rearrange_name(name):
+  result = re.search(r"^(\w*), (\w*)$", name)
+  if result == None:
+    return name
+  return "{} {}".format(result[2], result[1])
+
+name=rearrange_name("Kennedy, John F.")
+print(name)
+
+import re
+
+def rearrange_name(name):
+    # The pattern now matches last name, first name, optional middle name/initial, and optional double surnames.
+    result = re.search(r"^(\w*), (\w*)(?: (\w*\.?|\w*))?$", name)
+    
+    if result is None:
+        return name
+    
+    last_name = result.group(1)
+    first_name = result.group(2)
+    middle_name = result.group(3) or ""  # Handle the case when there's no middle name/initial.
+    
+    # Combine the components into the desired format.
+    rearranged_name = "{} {}{}".format(first_name, middle_name, last_name)
+    
+    return rearranged_name
+
+name = rearrange_name("Kennedy, John F.")
+print(name)
