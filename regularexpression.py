@@ -150,3 +150,34 @@ print(check_sentence("is this is a sentence?")) # False
 print(check_sentence("Hello")) # False
 print(check_sentence("1-2-3-GO!")) # False
 print(check_sentence("A star is born.")) # True
+
+import re
+def rearrange_name(name):
+  result = re.search(r"^(\w*), (\w*)$", name)
+  if result == None:
+    return name
+  return "{} {}".format(result[2], result[1])
+
+name=rearrange_name("Kennedy, John F.")
+print(name)
+
+import re
+
+def rearrange_name(name):
+    # The pattern now matches last name, first name, optional middle name/initial, and optional double surnames.
+    result = re.search(r"^(\w*), (\w*)(?: (\w*\.?|\w*))?$", name)
+    
+    if result is None:
+        return name
+    
+    last_name = result.group(1)
+    first_name = result.group(2)
+    middle_name = result.group(3) or ""  # Handle the case when there's no middle name/initial.
+    
+    # Combine the components into the desired format.
+    rearranged_name = "{} {}{}".format(first_name, middle_name, last_name)
+    
+    return rearranged_name
+
+name = rearrange_name("Kennedy, John F.")
+print(name)
