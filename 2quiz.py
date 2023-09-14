@@ -25,3 +25,29 @@ print(check_time("12:45pm")) # True
 print(check_time("9:59 AM")) # True
 print(check_time("6:60am")) # False
 print(check_time("five o'clock")) # False
+
+# ^: Matches the start of the string.
+#([0-9]|1[0-2]): Matches the hour in 12-hour format, either a single digit or a two-digit number from 1 to 12.
+#:: Matches a colon (used to separate hours and minutes).
+# [0-5][0-9]: Matches the minutes, ensuring they are in the range of 00 to 59.
+# \s?: Matches zero or one whitespace character (optional space).
+#So, \s? in the pattern allows for optional whitespace. It means that the regular expression is looking for a time in the format "hh:mm" followed by an optional space and an AM/PM indicator.
+#(AM|am|PM|pm): Matches either "AM," "am," "PM," or "pm" for the time of day.
+# $: Matches the end of the string.
+
+# 4.The transform_comments function converts comments in a Python script into those usable by a C compiler. This means looking for text that begins with a hash mark (#) and replacing it with double slashes (//), which is the C single-line comment indicator. For the purpose of this exercise, we'll ignore the possibility of a hash mark embedded inside of a Python command, and assume that it's only used to indicate a comment. We also want to treat repetitive hash marks (##), (###), etc., as a single comment indicator, to be replaced with just (//) and not (#//) or (//#). Fill in the parameters of the substitution method to complete this function:
+import re
+def transform_comments(line_of_code):
+  result = re.sub(r'(#+)','//', line_of_code)
+  return result
+
+print(transform_comments("### Start of program")) 
+# Should be "// Start of program"
+print(transform_comments("  number = 0   ## Initialize the variable")) 
+# Should be "  number = 0   // Initialize the variable"
+print(transform_comments("  number += 1   # Increment the variable")) 
+# Should be "  number += 1   // Increment the variable"
+print(transform_comments("  return(number)")) 
+# Should be "  return(number)"
+
+#5.The convert_phone_number function checks for a U.S. phone number format: XXX-XXX-XXXX (3 digits followed by a dash, 3 more digits followed by a dash, and 4 digits), and converts it to a more formal format that looks like this: (XXX) XXX-XXXX. Fill in the regular expression to complete this function.
