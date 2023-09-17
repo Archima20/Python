@@ -85,7 +85,7 @@ Python is widely used for automating tasks like data extraction, file management
 
 **7- Artificial Intelligence and Machine Learning**:
 
-Beyond data science, Python is a primary language for AI and ML research, implementation, and experimentation.
+Beyond data science, Python is a primary language for **AI** and **ML** research, implementation, and experimentation.
 
 **8- Internet of Things (IoT)**:
 
@@ -120,7 +120,7 @@ Python is utilized for tasks such as penetration testing, vulnerability scanning
 
 **15- Geographical Information Systems (GIS)**:
 
-Libraries like Geopandas and Folium are used for working with geographical and spatial data.
+Libraries like *Geopandas* and Folium are used for working with geographical and spatial data.
 
 
 In short, Python's rich ecosystem of libraries makes it an ideal choice for data science tasks, from collecting and cleaning data to visualizing insights and building complex machine-learning models. By leveraging Python's versatility, you can effectively navigate the various stages of a data science project.
