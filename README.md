@@ -33,7 +33,7 @@ Visualizing data is crucial for understanding its patterns and insights:
 
 **Seaborn**: Built on top of Matplotlib, Seaborn offers a higher-level interface for creating attractive statistical graphics.
 
-**Plotly**: Enables interactive visualizations and supports a wide range of chart types.
+**Plotly**: Enables interactive visualizations and supports variety of chart types.
 
 **Pandas Plotting**: Pandas provides convenient methods for creating basic visualizations directly from DataFrames.
 
