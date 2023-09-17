@@ -1,7 +1,7 @@
 # Python
 
 ## Introduction to Python in Data Science
-Python has emerged as one of the most popular programming languages for data science due to its versatility, rich ecosystem of libraries, and ease of use. Data scientists utilize Python for a wide range of tasks, from collecting and cleaning data to building advanced machine-learning models.
+Python has emerged as one of the most popular programming languages for data science due to its versatility, rich ecosystem of libraries, and ease of use. Data scientists utilize **Python** for a wide range of tasks, from collecting and cleaning data to building advanced machine-learning models.
 
 ## Data Collection
 
@@ -120,7 +120,7 @@ Python is utilized for tasks such as penetration testing, vulnerability scanning
 
 **15- Geographical Information Systems (GIS)**:
 
-Libraries like *Geopandas* and Folium are used for working with geographical and spatial data.
+Libraries like *Geopandas* and *Folium* are used for working with geographical and spatial data.
 
 
 In short, Python's rich ecosystem of libraries makes it an ideal choice for data science tasks, from collecting and cleaning data to visualizing insights and building complex machine-learning models. By leveraging Python's versatility, you can effectively navigate the various stages of a data science project.
