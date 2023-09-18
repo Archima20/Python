@@ -47,7 +47,7 @@ Python's libraries make it accessible to create machine learning models and impl
 
 **PyTorch**: Another popular framework for building and training neural networks, known for its dynamic computation graph.
 
-**Natural Language Toolkit (NLTK)**: for working with human language data, including text and speech.
+**Natural Language Toolkit (NLTK)**: for working with human language data, including *text* and *speech*.
 
 
 
