@@ -35,7 +35,7 @@ Visualizing data is crucial for understanding its patterns and insights:
 
 **Plotly**: Enables interactive visualizations and supports variety of chart types.
 
-**Pandas Plotting**: Pandas provides convenient methods for creating basic visualizations directly from DataFrames.
+**Pandas Plotting**: Pandas provides convenient methods for creating basic visualizations directly from *DataFrames*.
 
 
 ## Machine Learning and AI
