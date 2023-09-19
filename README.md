@@ -116,7 +116,7 @@ Libraries like OpenCV are used for computer vision tasks, image processing, and 
 
 **14- Cybersecurity**:
 
-Python is utilized for tasks such as penetration testing, vulnerability scanning, and creating security tools.
+Python is utilized for tasks such as *penetration testing, vulnerability scanning,* and *creating security tools*.
 
 **15- Geographical Information Systems (GIS)**:
 
