@@ -122,6 +122,13 @@ Python is utilized for tasks such as *penetration testing, vulnerability scannin
 
 Libraries like *Geopandas* and *Folium* are used for working with geographical and spatial data.
 
+### python3 -m http.server:
+Python helpfully provides a lightweight and easy-to-use module called *"HTTPServer"*. This module turns your computer into a quick and easy web server that you can use to serve your own files, where they can then be downloaded by another computing using commands such as curl and **wget**. 
+
+Python3's "HTTPServer" will serve the files in the directory that you run the command, but this can be changed by providing options that can be found in the manual pages. Simply, all we need to do is run **python3 -m  http.server** to start the module! 
+
+One flaw with this module is that you have no way of indexing, so you must know the exact name and location of the file that you wish to use. This is why I prefer to use **Updog**. What's Updog? A more advanced yet lightweight webserver. 
+
 
 In short, Python's rich ecosystem of libraries makes it an ideal choice for data science tasks, from collecting and cleaning data to visualizing insights and building complex machine-learning models. By leveraging Python's versatility, you can effectively navigate the various stages of a data science project.
 
