@@ -9,7 +9,7 @@ Data collection is the first step in any data science project. Python offers var
 
 **Requests**: A library for making HTTP requests, commonly used for fetching data from APIs and websites.
 
-**Beautiful Soup**: Used for web scraping, and extracting data from HTML and XML documents.
+**Beautiful Soup**: Used for *web scraping*, and extracting data from HTML and XML documents.
 
 **Selenium**: Automates web browser interaction, for scraping dynamic web content.
 
