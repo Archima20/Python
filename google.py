@@ -6,4 +6,4 @@ def numpyArray():
     return x*y
 print(numpyArray())
 
-# working with numpy library 
+# working with numpy library for math 
