@@ -1,4 +1,4 @@
-#Dispaly the output
+#Dispaly the output! to do math formulas
 import math
  
 def triangle(base, height):
