@@ -4,7 +4,6 @@
 Python has emerged as one of *the most popular programming languages* for data science due to its versatility, rich ecosystem of libraries, and ease of use. Data scientists utilize **Python** for a wide range of tasks, from collecting and cleaning data to building advanced machine-learning models.
 
 ## Data Collection
-
 Data collection is the first step in any data science project. Python offers various tools and libraries to retrieve data from diverse sources:
 
 **Requests**: A library for making HTTP requests, commonly used for fetching data from APIs and websites.
@@ -33,7 +32,7 @@ Visualizing data is crucial for understanding its patterns and insights:
 
 **Seaborn**: Built on top of Matplotlib, Seaborn offers a higher-level interface for creating attractive statistical graphics.
 
-**Plotly**: Enables interactive visualizations and supports variety of chart types.
+**Plotly**: Enables interactive visualizations and supports a variety of chart types.
 
 **Pandas Plotting**: Pandas provides convenient methods for creating basic visualizations directly from *DataFrames*.
 
