@@ -1,4 +1,4 @@
-# Data to be written to the CSV file
+# Data to be written to the CSV file (Comma-separated values (CSV) is a text file format that uses commas to separate values. A CSV file stores tabular data (numbers and text) in plain text, where each line of the file typically represents one data record. Each record consists of the same number of fields, and these are separated by commas in the CSV file)
 data = [
     ["Name", "Age", "Location"],
     ["Alice", 25, "New York"],
