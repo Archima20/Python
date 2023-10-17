@@ -7,4 +7,5 @@ print(free)
 import psutil
 psutil.cpu_percent(0.1)
 
+#little exercise 
 

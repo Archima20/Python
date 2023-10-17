@@ -10,7 +10,7 @@ print(result)
 
 result= re.search(r"aza", "bammar")
 print(result)
-# None
+# None is the answer
 
 print(re.search(r"^x", "xenian"))
 # <re.Match object; span=(0, 1), match='x'>
