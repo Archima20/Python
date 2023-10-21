@@ -1,4 +1,4 @@
-# CodeBar session with Nills & Kaoruko Kawanishi 
+# CodeBar session with Nills & Kaoruko Kawanishi , Sep Session
 
 apikey = "5b97c38c59e3edf289c47d714095291a"
 url = "https://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist="
