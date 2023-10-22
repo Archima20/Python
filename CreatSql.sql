@@ -9,7 +9,7 @@
 --
 -- This user "pma" must be defined in config.inc.php (controluser/controlpass)
 --
--- Please don't forget to set up the tablenames in config.inc.php
+-- Please don't forget to set up the table names in config.inc.php
 --
 -- Database : `phpmyadmin`
 --
