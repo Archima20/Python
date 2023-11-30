@@ -5,6 +5,7 @@ import subprocess
 subprocess.run(["cmd", "/c", "date"])
 
 # subprocess.run(["date"]) is a linux command!
+# Becareful with Linux and Wndows commands! 
 
 
 
